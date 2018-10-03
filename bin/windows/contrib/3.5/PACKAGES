@@ -1,0 +1,6 @@
+Package: MOMO
+Version: 2018.10.03
+Depends: R (>= 3.3)
+Imports: data.table, foreign, stringr, stats, grDevices, graphics, utils, glm2, MASS, glmnet, lubridate, readxl, ggplot2
+Suggests: testthat, knitr, rmarkdown
+License: GPL-3
