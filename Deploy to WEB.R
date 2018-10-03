@@ -1,9 +1,10 @@
-devtools::document()
-devtools::check()
-devtools::build()
 
-drat::insertPackage("C:/Users/nls/Documents/GitHub/MOMO_0.2.0.tar.gz",
-                    repodir = "C:/Users/nls/Documents/GitHub/drat")
+setwd("H:/SFSD/INFEPI/Projekter/AKTIVE/MOMO/GitHub/EuroMOMOnetwork")
 
-saveRDS(read.dcf("C:/Users/nls/Documents/GitHub/drat/src/contrib/PACKAGES"),
-        "C:/Users/nls/Documents/GitHub/drat/src/contrib/PACKAGES.rds")
+devtools::document("MOMO")
+devtools::check("MOMO")
+file <- devtools::build("MOMO")
+
+drat::insertPackage(file, repodir = "drat")
+
+saveRDS(read.dcf("drat/src/contrib/PACKAGES"), "drat/src/contrib/PACKAGES.rds")
