@@ -5,5 +5,5 @@
 Please use my [drat](https://github.com/eddelbuettel/drat) repository to install this package from
 
 ```
-install.packages("MOMO", repos="https://EuroMOMOnetwork.github.io/drat/")
+install.packages("MOMO", repos="https://euromomonetwork.github.io/drat/")
 ```

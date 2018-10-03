@@ -1,6 +1,9 @@
 #
 setwd("H:/SFSD/INFEPI/Projekter/AKTIVE/MOMO/GitHub/EuroMOMOnetwork")
 
+p <- Sys.getenv("PATH")
+Sys.setenv(PATH=paste0(p,";C:\\Rtools\\bin"))
+
 devtools::document("MOMO")
 devtools::check("MOMO")
 
@@ -13,3 +16,4 @@ file <- devtools::build("MOMO", binary = TRUE)
 drat::insertPackage(file, repodir = "drat")
 
 saveRDS(read.dcf("drat/src/contrib/PACKAGES"), "drat/src/contrib/PACKAGES.rds")
+
