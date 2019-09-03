@@ -1,9 +1,9 @@
 Package: MOMO
 Version: 2019.06.25
 Depends: R (>= 3.3)
-Imports: data.table, foreign, stringr, stats, grDevices, graphics, utils, glm2, MASS, glmnet,
-           lubridate, readxl, ggplot2
+Imports: data.table, foreign, stringr, stats, grDevices, graphics,
+        utils, glm2, MASS, glmnet, lubridate, readxl, ggplot2
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
-MD5sum: 23899aee7f659feea2db5f047b1da63c
+MD5sum: 03e1d73057c92c56ec8bac7b960c7659
 NeedsCompilation: no
