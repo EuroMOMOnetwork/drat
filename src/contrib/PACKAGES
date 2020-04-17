@@ -1,19 +1,19 @@
 Package: FluMOMO
 Version: 2019.09.02
 Depends: R (>= 3.5)
-Imports: data.table, foreign, stringr, stats, grDevices, graphics,
-        utils, glm2, MASS, glmnet, lubridate, readxl, ggplot2
+Imports: data.table, foreign, stringr, stats, grDevices, graphics, utils, glm2, MASS,
+          glmnet, lubridate, readxl, ggplot2
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
 MD5sum: 4fad22a5787a285863ae3b87881600c0
 NeedsCompilation: no
 
 Package: MOMO
-Version: 2019.09.15
+Version: 2020.4.17
 Depends: R (>= 3.3)
-Imports: data.table, foreign, stringr, stats, grDevices, graphics,
-        utils, glm2, MASS, glmnet, lubridate, readxl, ggplot2
+Imports: data.table, foreign, stringr, stats, grDevices, graphics, utils, glm2, MASS,
+          lubridate, readxl, ggplot2
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
-MD5sum: 0d3d7fe26a74e637f56ca5bda0fbd0e9
+MD5sum: ec2968369315494f1c27e89c34eb2bd9
 NeedsCompilation: no
