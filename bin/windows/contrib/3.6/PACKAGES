@@ -1,7 +1,20 @@
 Package: MOMO
+Version: 2020.4.17
+Depends: R (>= 3.3)
+Imports: data.table, foreign, stringr, stats, grDevices, graphics, utils, glm2, MASS, lubridate, readxl, ggplot2
+Suggests: testthat, knitr, rmarkdown
+License: GPL-3
+
+Package: MOMO
 Version: 2020.4.27
 Depends: R (>= 3.3)
-Imports: data.table, foreign, stringr, stats, grDevices, graphics, utils, glm2, MASS,
-          lubridate, readxl, ggplot2
+Imports: data.table, foreign, stringr, stats, grDevices, graphics, utils, glm2, MASS, lubridate, readxl, ggplot2
+Suggests: testthat, knitr, rmarkdown
+License: GPL-3
+
+Package: MOMO
+Version: 2020.9.3
+Depends: R (>= 3.5)
+Imports: data.table, foreign, stringr, stats, grDevices, graphics, utils, glm2, MASS, lubridate, readxl, ggplot2
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3

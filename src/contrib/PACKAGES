@@ -1,19 +1,35 @@
 Package: FluMOMO
 Version: 2019.09.02
 Depends: R (>= 3.5)
-Imports: data.table, foreign, stringr, stats, grDevices, graphics, utils, glm2, MASS,
-          glmnet, lubridate, readxl, ggplot2
+Imports: data.table, foreign, stringr, stats, grDevices, graphics, utils, glm2, MASS, glmnet, lubridate, readxl, ggplot2
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
 MD5sum: 4fad22a5787a285863ae3b87881600c0
 NeedsCompilation: no
 
 Package: MOMO
+Version: 2020.4.17
+Depends: R (>= 3.3)
+Imports: data.table, foreign, stringr, stats, grDevices, graphics, utils, glm2, MASS, lubridate, readxl, ggplot2
+Suggests: testthat, knitr, rmarkdown
+License: GPL-3
+MD5sum: 3729740ec327a61324469375f953272d
+NeedsCompilation: no
+
+Package: MOMO
 Version: 2020.4.27
 Depends: R (>= 3.3)
-Imports: data.table, foreign, stringr, stats, grDevices, graphics, utils, glm2, MASS,
-          lubridate, readxl, ggplot2
+Imports: data.table, foreign, stringr, stats, grDevices, graphics, utils, glm2, MASS, lubridate, readxl, ggplot2
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
 MD5sum: f212b84987d3caab70c527d76d2c72ca
+NeedsCompilation: no
+
+Package: MOMO
+Version: 2020.9.3
+Depends: R (>= 3.5)
+Imports: data.table, foreign, stringr, stats, grDevices, graphics, utils, glm2, MASS, lubridate, readxl, ggplot2
+Suggests: testthat, knitr, rmarkdown
+License: GPL-3
+MD5sum: 8ce001556c7b0f2772cd170a09183758
 NeedsCompilation: no
