@@ -47,3 +47,13 @@ Suggests: testthat, knitr, rmarkdown
 License: GPL-3
 MD5sum: f40524454fc0521e75f899f75c2f1961
 NeedsCompilation: no
+
+Package: MOMO
+Version: 2021.1.7
+Depends: R (>= 3.5)
+Imports: data.table, foreign, stringr, stats, grDevices, graphics,
+        utils, glm2, MASS, lubridate, readxl, ggplot2
+Suggests: testthat, knitr, rmarkdown
+License: GPL-3
+MD5sum: 6209d1ef81a00c2a866c550c0fc26113
+NeedsCompilation: no
